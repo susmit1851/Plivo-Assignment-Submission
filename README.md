@@ -9,6 +9,12 @@ Epoch 3 average loss: 0.0090
 ```
 
 ## After Adding 700 train + 150 dev data (Keeping model same)
+We use the following scripts to generates synthetic data and merge with given data to get final full data.
+```text
+scripts/generate_synthetic_data.py
+scripts/final_data/merge.py
+```
+
 ```text
 Epoch 1 average loss: 0.4637
 Epoch 2 average loss: 0.0064
